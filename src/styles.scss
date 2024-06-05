@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+            background-image: url('assets/uefa.jpg');
+            background-size: cover; /* Görselin sayfanın tamamını kaplaması için */
+            background-repeat: no-repeat; /* Görselin tekrar etmemesi için */
+            background-attachment: fixed; /* Görselin sayfa kaydırıldığında sabit kalması için */
+            background-position: center; /* Görselin sayfanın ortasında konumlanması için */
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

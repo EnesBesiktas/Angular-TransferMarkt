@@ -1,0 +1,29 @@
+<div class="header-container">
+  <h1 class="center-bold-title">TransferMarkt</h1>
+  <div class="example-form">
+    <form >
+      <mat-form-field class="example-full-width">
+        <mat-label>Oyuncu İsmi</mat-label>
+        <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl"
+          [matAutocomplete]="auto">
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+          @for (option of filteredOptions | async; track option) {
+          <mat-option [value]="option">{{option}}</mat-option>
+          }
+        </mat-autocomplete>
+      </mat-form-field>
+    </form>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com" target="_blank" class="social-icon">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://x.com/" target="-blank" class="social-icon">
+      <i class="fab fa-x"></i>
+    </a>
+  </div>
+</div>

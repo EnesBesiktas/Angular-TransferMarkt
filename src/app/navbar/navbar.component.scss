@@ -1,0 +1,44 @@
+.header-container {
+    display: flex;
+    background-color: #0E2050;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 80px;
+}
+
+.center-bold-title {
+    text-align: left;
+    font-weight: bold;
+    background-color: rgb(97, 6, 97); /* Arka plan rengini burada belirleyin */
+    padding: 15px; /* Başlığın etrafına boşluk ekler */
+    margin: 0; /* Varsayılan margin'i kaldırır */
+    width: 20%;
+}
+
+.social-icons {
+    display: flex;
+    margin-right: 5%;
+    gap: 25px; /* Butonlar arasına boşluk ekler */
+
+}
+
+.social-icon {
+    color: #000; /* İkonların rengi */
+    font-size: 24px; /* İkonların boyutu */
+    text-decoration: none; /* Link altını kaldırır */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Hover sırasında ikonların rengi */
+}
+
+.example-form {
+    min-width: 150px;
+    padding-top: 1.5%;
+    width: 100%;
+    height: auto;
+  }
+  .example-full-width {
+    width: 100%;
+  }
